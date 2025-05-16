@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- Linguaguem da página definida para Português do Brasil -->
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfólio G.P.G.</title>
+    <!-- Importação dos estilos da página -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Gabriel Portela Gomes</h1>
+      <p>Desenvolvedor Full Stack</p>
+      <!-- Links de navegação para seções específicas da página -->
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre Mim</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Seção com um resumo de boas-vindas - Sobre Mim -->
+      <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>
+          Meu nome é Gabriel. Sou graduado em Engenheira Civil, recentemente
+          migrei para a área de TI e hoje atuo como desenvolvedor full stack.
+          Adoro tecnologia, estou sempre em busca de aprender mais e me
+          aprimorar. Sou uma pessoa curiosa, comprometida e determinada a
+          atingir meus objetivos.
+        </p>
+      </section>
+
+      <!-- Seção destinada para formação acadêmica - Formação -->
+      <section id="formacao">
+        <h2>Formação</h2>
+        <p>Graduação Bacharel em Engenharia Civil - Pitágoras (2015 - 2019).</p>
+        <p>
+          Graduação Bacharel emCiência da COmputação - Uninter (2024 - Em
+          andamento).
+        </p>
+        <p>
+          Tecnólogo em Sistemas para Internet - UESPI (2024 - Em andamento).
+        </p>
+        </br>
+
+        <p>Idiomas: Português (nativo), Inglês (intermediário)</p>
+      </section>
+
+      <!-- Seção destinada a projetos no decorrer dos estudo - Portfólio -->
+      <section id="portfolio">
+        <h2>Portfólio</h2>
+        <div class="portfolio-grid">
+          <a href="https://gabrielportelagomes.github.io/projeto3-driveneats/" target="_blank" class="capa">
+            <img src="src/driven_eats.png" alt="driven-eats">
+            <span class="legenda">Driven Eats</span>
+          </a>
+          <a href="https://gabrielportelagomes.github.io/projeto5-batepapouol/" target="_blank" class="capa">
+            <img src="src/bate_papo.png" alt="bate-papo">
+            <span class="legenda">Bate-papo</span>
+          </a>
+          <a href="https://gabrielportelagomes.github.io/projeto4-parrotscardgame/" target="_blank" class="capa">
+            <img src="src/jogo_memoria.png" alt="memory card">
+            <span class="legenda">Jogo da memória</span>
+          </a>
+      </section>
+
+      <!-- Seção para o usuário simular o envio de informações para - Contato -->
+      <section id="contato">
+        <h2>Contato</h2>
+        <form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+          <!-- Ao clicar em enviar a página é recarregada sem nenhuma ação prática -->
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Rodapé com informações do ano de criação da página e iniciais do desenvolvedor -->
+    <footer>
+      <p>&copy; 2025 - G.P.G.</p>
+    </footer>
+  </body>
+</html>
